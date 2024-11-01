@@ -1,4 +1,5 @@
 import React from "react";
+import Products from "./Products";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
         <div className="w-44 h-32 rounded-md bg-red-600 p-5 text-white">
           <h3>hello kase ho</h3>
         </div>
+        <Products />
       </div>
 
   );
